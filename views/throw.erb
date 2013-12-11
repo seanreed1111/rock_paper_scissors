@@ -1,13 +1,7 @@
 <h1>Let's get ready to Rock, Paper, Scissors!</h1>
 
- <p>It's your move:</p>
+ <p>Your move was <%= params[:type]%></p>
+ <p>Computer move was <%= @computer_move %></p>
+ 
 
- <ul>
-
-	   <a href="throw/"><img src="./images/main_page.png"></a>
-
-</ul>
-
-<p>Outcome <%= @outcome.inspect %></p>
-<p>Computer <%= @computer_move.inspect %></p>
-<p>Me <%= @player_move.inspect %></p>
+<p>And the Winner is...==> <%= @winner %></p>
