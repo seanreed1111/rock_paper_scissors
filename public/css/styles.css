@@ -1,0 +1,59 @@
+/*####GENERAL#####*/
+
+body {
+font-family: "bebas neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1;
+color: #fff;
+-webkit-font-smoothing: antialiased;
+}
+
+/*####FONTS#####*/
+@font-face {
+    font-family: "bebas neue";
+    src: url('fonts/bebasneue-webfont.ttf');
+
+h1, h2, h3, h4, h5, h6 {
+	  font-family: "bebas neue", Helvetica, Arial, sans-serif;
+	  font-weight: normal;
+	  font-style: normal;
+	  color: #000;
+	  text-rendering: optimizeLegibility;
+	  margin-top: 0.2em;
+	  margin-bottom: 0.5em;
+	  line-height: 1.2125em; }
+
+.extra_huge {
+	font-size: 5.143em;
+}
+
+/*#####BUTTONS######*/
+.buttonbox {
+            overflow: hidden;
+        }
+
+.button {
+   float: left;
+   padding: 20px 10px;
+   margin-right: 5px;
+}
+
+.buttonright {
+	float: right;
+	padding: 20px 10px;
+   	margin-left: 5px;
+}
+
+/*######SECTIONS######*/
+    
+ #compliment {
+ 	width: inherit;
+ 	margin: 5px 0;
+
+ }
+
+  #compliment {
+ 	width: inherit;
+ 	margin: 5px 0;
+
+ }
