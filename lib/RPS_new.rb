@@ -1,4 +1,15 @@
-class RPS
+require 'bundler'
+Bundler.require
+
+
+module Game 
+  class RPS_App < Sinatra::Application
+
+  		get '/' do
+  			@image = funke.jpeg
+  			erb :throw
+  		end
+
 	attr_accessor :winner, :computer_move, :player_move
 
 	MOVE = [:rock, :paper, :scissors]
@@ -7,6 +18,7 @@ class RPS
 
 	def initialize(player_move)
 		@player_move = player_move.to_sym
+
 	end
 
 	def choose_winner_at_random
@@ -26,6 +38,10 @@ class RPS
 		elsif WIN[computer_move] == player_move
 			"You Lose!!" 
 		end
+	
+	def collection_images
+     array_image = ["funke.jpeg", "michael.jpeg", "gob.jpeg", "buster.jpeg"]
+
 	end
 
 end
